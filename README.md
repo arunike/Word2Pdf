@@ -7,9 +7,7 @@
 <p>
   The Gui include the following components:
 </p>
-<dd>
-  <li>Choose file</li>
-  <li>Choose save destination folder</li>
-  <li>Convert word to pdf</li>
-  <li>Remove input</li>
-</dd>
+<li>Choose file to convert</li>
+<li>Choose save destination location</li>
+<li>Convert <b>Word to PDF</b> </li>
+<li>Remove selected input</li>
