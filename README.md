@@ -2,7 +2,7 @@
 
 ## Description
 <p>
-  A simple Gui built with Python that allows user to convert word docs into PDF.
+  A simple Gui built with Python that allows user to convert word <b>.DOCX</b> into <b>.PDF</b>.
 </p>
 <p>
   The Gui include the following components:
