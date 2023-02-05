@@ -6,8 +6,8 @@
 </p>
 <p>
   The Gui include the following components:
-</p>
 <li>Choose file</li>
 <li>Choose save destination folder</li>
 <li>Convert word to pdf</li>
 <li>Remove input</li>
+</p>
