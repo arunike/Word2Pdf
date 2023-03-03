@@ -94,9 +94,12 @@ def WordToPDF():
             messagebox.showwarning("Warning", "New PDF file need a new path to save")
         else:
             with open(f"{sPath}/{name}.pdf", "wb") as f:
-                docx2pdf.convert(filepath, f"{sPath}/{name}.pdf")
+                if name == "":
+                    messagebox.showwarning("Warning", "New PDF file need a new name")
+                else:
+                    docx2pdf.convert(filepath, f"{sPath}/{name}.pdf")
 
-            messagebox.showinfo("ALl Set","Congrats! Your PDF is ready")
+                    messagebox.showinfo("ALl Set","Congrats! Your PDF is ready")
 
     def removefiles():
         print ("Before", files)
